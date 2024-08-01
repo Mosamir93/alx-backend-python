@@ -2,10 +2,10 @@
 """
 This module contains a function that returns a list of tuples.
 """
-from typing import List, Tuple, Sequence
+from typing import List, Tuple, Sequence, Iterable
 
 
-def element_length(lst: Sequence) -> List[Tuple[Sequence, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     A function that returns a list of tuples.
     """
